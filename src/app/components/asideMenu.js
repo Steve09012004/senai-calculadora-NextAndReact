@@ -16,6 +16,7 @@ export default function AsideMenu() {
                 main.style.opacity = "1";
                 main.style.width = "calc(100vw - 290px)";
                 main.style.marginLeft = "290px";
+                main.style.pointerEvents = "fill";
             } else {
                 // Tela pequena → Esconde aside
                 setIsOpen(false);
@@ -46,6 +47,7 @@ export default function AsideMenu() {
             main.style.opacity = "1";
             main.style.width = "100vw";
             main.style.marginLeft = "0";
+            
         } else {
             // Abrir menu
             setIsOpen(true);

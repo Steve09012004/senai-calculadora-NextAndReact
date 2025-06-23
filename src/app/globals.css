@@ -33,7 +33,7 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: black;
   font-family: "Inter";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -64,6 +64,8 @@ aside {
   width: 18rem;
   height: 100vh;
   border-right: 1px solid #80808027;
+  background-color: #0f0f0f;
+  color: white;
 
 
   && .logo {
@@ -153,6 +155,7 @@ aside {
   }
 
   && .closeAside {
+    color: white !important;
     display: none;
     position: absolute;
     top: 50%;
@@ -172,6 +175,7 @@ aside {
 }
 
 main {
+  background: #0f0f0f;
   position: relative;
   width: calc(100vw - 290px);
   height: 100vh;
